@@ -53,4 +53,5 @@ export const LINKS = [
 
   // ---------- News & Media ----------
   { name: "Tribune Chronicle", category: "News & Media", subcategory: "Newspaper", url: "https://www.tribtoday.com/", description: "Warren's daily newspaper serving the Mahoning Valley." },
+  { name: "The Review Newspapers", category: "News & Media", subcategory: "Newspaper", url: "https://www.thereviewnewspapers.com/", description: "Weekly newspaper covering all of Trumbull and Mahoning counties." },
 ];
