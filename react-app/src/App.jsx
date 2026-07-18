@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { LINKS, CATEGORIES } from "./data/links.js";
+import { LINKS, CATEGORIES, AUDITOR_VENDOR } from "./data/links.js";
 
 // Main menu links. Replace the placeholder URLs with your real ones.
 const MENU_LINKS = [
@@ -97,6 +97,9 @@ export default function App() {
           <h1>Trumbull County Information</h1>
         </div>
         <p>A curated directory of government, education, health, business, community, and news links across Trumbull County, Ohio.</p>
+        <p style={{ margin: "0 0 16px", fontSize: "0.9rem", opacity: 0.9 }}>
+          <strong>Auditor Data Vendor:</strong> {AUDITOR_VENDOR}
+        </p>
         <input
           className="search"
           type="search"

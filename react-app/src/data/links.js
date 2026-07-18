@@ -13,6 +13,8 @@ export const CATEGORIES = [
   "News & Media",
 ];
 
+export const AUDITOR_VENDOR = "Beacon (Schneider Geospatial)";
+
 export const LINKS = [
   // ---------- Government ----------
   { name: "Trumbull County (Official Site)", category: "Government", subcategory: "County", url: "https://www.co.trumbull.oh.us/", description: "Official Trumbull County government website — departments, services, and news." },
