@@ -28,7 +28,7 @@ export const GITHUB_ACTIONS_URL = `${GITHUB_REPO_URL}/actions`;
 /**
  * Built-in copy of this county's apps, used until county-apps.json loads and
  * whenever it can't be reached (offline, hub down). Same shape as the feed.
- * The live feed wins when it differs. Snapshot: 2026-11-08.
+ * The live feed wins when it differs. Snapshot: 2026-11-16.
  */
 export const FALLBACK_APPS = [
   { label: "Address Points Map", kind: "Address Points", href: "https://mikecostarella.github.io/TrumbullCountyAddressPoints/" },
@@ -37,7 +37,7 @@ export const FALLBACK_APPS = [
   { label: "Healthcare Access Map", kind: "Healthcare", href: "https://mikecostarella.github.io/TrumbullHealthAccessMap/" },
   { label: "Hydrants Map", kind: "Hydrants", href: "https://mikecostarella.github.io/TrumbullCountyHydrants/" },
   { label: "Information", kind: "Information", href: "https://mikecostarella.github.io/TrumbullCountyInformation/" },
-  { label: "Jurisdictions", kind: "Jurisdictions", href: "https://mikecostarella.github.io/TrumbullCountyJurisdictions/" },
+  { label: "Jurisdictions", kind: "Jurisdictions", href: "https://mikecostarella.github.io/OhioJurisdictions/#/county/trumbull" },
   { label: "Liquor Permits", kind: "Liquor Permits", href: "https://mikecostarella.github.io/OhioLiquorPermits/#/county/trumbull" },
   { label: "Parcels Map", kind: "Parcels", href: "https://mikecostarella.github.io/TrumbullCountyParcels/" },
   { label: "Precincts Map", kind: "Precincts", href: "https://mikecostarella.github.io/TrumbullCountyPrecincts/" },
